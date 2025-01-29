@@ -473,15 +473,15 @@ export const WELCOME_EMAIL_TEMPLATE = `
   </head>
 
   <body>
-    <span class="preheader">Thanks for trying out PassMan.</span>
+    <span class="preheader">Thanks for trying out Z-Auth.</span>
     <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation">
       <tr>
         <td align="center">
           <table class="email-content" width="100%" cellpadding="0" cellspacing="0" role="presentation">
             <tr>
               <td class="email-masthead">
-                <a href="https://PASSMAN.com" class="f-fallback email-masthead_name">
-                PassMan
+                <a href="" class="f-fallback email-masthead_name">
+                Z-Auth
               </a>
               </td>
             </tr>
@@ -494,10 +494,10 @@ export const WELCOME_EMAIL_TEMPLATE = `
                     <td class="content-cell">
                       <div class="f-fallback">
                         <h1>Welcome, {name}!</h1>
-                        <p>Thanks for joining PassMan. You have suucessfully verified your email. We’re thrilled to have you on board.</p>
+                        <p>Thanks for joining PassMan. You have successfully verified your email. We’re thrilled to have you on board.</p>
                         
                         <p>Thanks,
-                          <br>Dev Team from PassMan</p>
+                          <br>Dev, Z-Auth</p>
                         <p>
                       </div>
                     </td>
@@ -511,7 +511,7 @@ export const WELCOME_EMAIL_TEMPLATE = `
                   <tr>
                     <td class="content-cell" align="center">
                       <p class="f-fallback sub align-center">
-                        PassMan, LLC
+                        Z-Auth, LLC
                         <br>1234 Street Rd.
                         <br>Suite 1234
                       </p>
