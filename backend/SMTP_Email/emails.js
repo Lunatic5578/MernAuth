@@ -56,7 +56,7 @@ export const sendVerificationEmail = async (email, verificationToken) => {
 };
 
 export const sendWelcomeEmail = async (email, name) => {
-  const subject = "Welcome to Passman";
+  const subject = "Welcome to Z-Auth";
   const htmlContent = WELCOME_EMAIL_TEMPLATE.replace("{name}", name);
 
   try {
