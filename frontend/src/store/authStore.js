@@ -3,7 +3,7 @@ import {create} from "zustand";
 import axios from "axios";
 import ForgotPasswordPage from "../pages/ForgotPasswordPage";
 
-const API_URI="http://localhost:4000/api/auth";
+const API_URI=import.meta.env.MODE==="development" ? "http://localhost:4000/api/auth" : "/api/auth";
 
 axios.defaults.withCredentials=true
 
