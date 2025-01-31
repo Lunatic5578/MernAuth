@@ -11,3 +11,4 @@ This is a web app made with MERN. This auth-service app has all the ability whic
 
 <br>
 <a href="mernauth-opb6.onrender.com/">Click to view</a>
+<br> <h1>NOTE: The website might take some time to load for the first time due to render's rebuilding process.</h1>
