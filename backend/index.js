@@ -12,6 +12,10 @@ const app=express()
 const PORT=process.env.PORT||4000;
 const __dirname=path.resolve()
 
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
 app.use(cors({
     origin:"http://localhost:5173",
     credentials:true
